@@ -4,8 +4,8 @@ version: 1.0.0+1
 publish_to: none
 
 environment:
-  sdk: ">=2.19.0 <3.0.0"
-  flutter: ">=2.0.0"
+  sdk: ">=3.3.1 <4.0.0"
+  # flutter: ">=2.0.0"
 
 dependencies:
   flutter:
@@ -15,7 +15,7 @@ dependencies:
     path: ../
   # flutter_image_compress_web:
   #   path: ../../flutter_image_compress_web
-  path_provider: ^2.0.0
+  path_provider: ^2.1.1
 flutter:
   uses-material-design: true
 
